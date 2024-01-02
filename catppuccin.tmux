@@ -78,7 +78,7 @@ main() {
   readonly user
 
   local host
-  host="$(get_tmux_option "@catppuccin_host" "off")"
+  host="$(get_tmux_option "@catppuccin_host" "on")"
   readonly host
 
   local date_time
